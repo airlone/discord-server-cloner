@@ -25,15 +25,12 @@ SOFTWARE.
 
 
 
-import os, sys, threading, requests, aiohttp, asyncio, time, random, typing
+import os, sys, threading, requests, asyncio, time, random, typing
 from pystyle import Colorate, Colors, Center, Write, System
-from requests_futures.sessions import FuturesSession
-from concurrent.futures import ThreadPoolExecutor
 from itertools import cycle
 import base64, string
 from datetime import datetime
 import json
-from multiprocessing import Process
 
 
 secret_key = 'bWFkZSBieSBsb25lIzQyNzkgKG9uIGNvcmQp' # do not remove really important
